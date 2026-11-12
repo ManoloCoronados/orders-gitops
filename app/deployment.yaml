@@ -23,7 +23,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: orders-service
-          image: ghcr.io/manolocoronados/orders-service:447c0bd16176529184420cd03bffb05c0f49cad4
+          image: ghcr.io/manolocoronados/orders-service:698cf5bd72d9ccc73a924f2ffa87f016c0b2974a
           ports:
             - name: http
               containerPort: 8080
